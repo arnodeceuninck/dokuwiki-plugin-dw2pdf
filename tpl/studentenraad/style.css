@@ -71,72 +71,52 @@ span.mpdf_toc_p_level_4 {}
 
 /* HTML header formatting based on UAntwerpen Word template */
 /* Every header level shifted one down (increased number) to make title formatting h1 */
+
+
+body {
+    font: normal 87.5%/1.4 "Calibri", sans-serif;
+    font-family: "Calibri",sans-serif;
+    /* default font size: 100% => 16px; 93.75% => 15px; 87.5% => 14px; 81.25% => 13px; 75% => 12px */
+    -webkit-text-size-adjust: 100%;
+    color: #002e65;
+}
+
 h1
-    {mso-style-link:"Title Char";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0pt;
-	margin-left:0cm;
-	font-size:24.0pt;
+    {font-size:24.0pt;
 	font-family:"Calibri",sans-serif;
-	color:#F43C76;
+	color: #F43C76;
 	letter-spacing:-.5pt;
 	font-weight:bold;}
 
 h2
-	{mso-style-link:"Heading 1 Char";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0pt;
-	margin-left:0cm;
-	line-height:107%;
+	{line-height:107%;
 	page-break-after:avoid;
 	font-size:16.0pt;
 	font-family:"Calibri",sans-serif;
 	color:#002E65;}
 h3
-	{mso-style-link:"Heading 2 Char";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0pt;
-	margin-left:0cm;
-	line-height:107%;
+	{line-height:107%;
 	page-break-after:avoid;
 	font-size:14.0pt;
 	font-family:"Calibri",sans-serif;
 	color:#002E65;
 	font-weight:normal;}
 h4
-	{mso-style-link:"Heading 3 Char";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0pt;
-	margin-left:0cm;
-	line-height:107%;
+	{line-height:107%;
 	page-break-after:avoid;
 	font-size:12.0pt;
 	font-family:"Calibri",sans-serif;
 	color:#002E65;
 	font-weight:normal;}
 h5
-	{mso-style-link:"Heading 4 Char";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0pt;
-	margin-left:0cm;
-	line-height:107%;
+	{line-height:107%;
 	page-break-after:avoid;
 	font-size:11.0pt;
 	font-family:"Calibri",sans-serif;
 	color:#002E65;
 	font-weight:normal;}
 h6
-	{mso-style-link:"Heading 5 Char";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0pt;
-	margin-left:0cm;
-	line-height:107%;
+	{line-height:107%;
 	page-break-after:avoid;
 	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
