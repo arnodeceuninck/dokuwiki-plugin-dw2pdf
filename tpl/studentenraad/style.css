@@ -16,7 +16,7 @@ table.pdffooter {
 div.mpdf_toc {
 }
 a.mpdf_toc_a {
-    color: black; /* links black as well */
+    color: #F43C76; /* links black as well */
 }
 /* Whole line level 0 */
 div.mpdf_toc_level_0 {
@@ -75,7 +75,7 @@ h1
     {mso-style-link:"Title Char";
 	margin-top:0cm;
 	margin-right:0cm;
-	margin-bottom:16.0pt;
+	margin-bottom:0pt;
 	margin-left:0cm;
 	font-size:24.0pt;
 	font-family:"Calibri",sans-serif;
@@ -98,7 +98,7 @@ h3
 	{mso-style-link:"Heading 2 Char";
 	margin-top:0cm;
 	margin-right:0cm;
-	margin-bottom:16.0pt;
+	margin-bottom:0pt;
 	margin-left:0cm;
 	line-height:107%;
 	page-break-after:avoid;
@@ -110,7 +110,7 @@ h4
 	{mso-style-link:"Heading 3 Char";
 	margin-top:0cm;
 	margin-right:0cm;
-	margin-bottom:16.0pt;
+	margin-bottom:0pt;
 	margin-left:0cm;
 	line-height:107%;
 	page-break-after:avoid;
@@ -122,7 +122,7 @@ h5
 	{mso-style-link:"Heading 4 Char";
 	margin-top:0cm;
 	margin-right:0cm;
-	margin-bottom:16.0pt;
+	margin-bottom:0pt;
 	margin-left:0cm;
 	line-height:107%;
 	page-break-after:avoid;
@@ -134,7 +134,7 @@ h6
 	{mso-style-link:"Heading 5 Char";
 	margin-top:0cm;
 	margin-right:0cm;
-	margin-bottom:16.0pt;
+	margin-bottom:0pt;
 	margin-left:0cm;
 	line-height:107%;
 	page-break-after:avoid;
@@ -142,3 +142,7 @@ h6
 	font-family:"Calibri",sans-serif;
 	color:#002E65;
 	font-weight:normal;}
+
+a {
+	color: #F43C76;
+}
